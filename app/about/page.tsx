@@ -39,11 +39,11 @@ const AboutPage = () => {
   return (
     <div className='min-h-[150vh] max-w-[100vw] hero_container relative overflow-x-hidden overflow-y-visible' id='hero-section'>
       <div ref={about} className='h-[100vh] min-w-[100vw] z-0 top-0 backdrop-brightness-full'> 
-        <div className="project_container overflow-hidden h-auto min-w-[100vw] bg-cover bg-center bg-no-repeat flex relative top-[50vh]">
-        <Image src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPD4GyeikTckuI7X-L8iK-JxFyUGUKnmj1hw&s' width={2000} height={100} alt="project_image" className='project_image relative object-cover bg-center' />
+        <div className="project_container overflow-hidden h-auto max-h-[100vh] overflow-y-hidden min-w-[100vw] bg-cover bg-center bg-no-repeat flex relative top-[50vh]">
+        <Image src='https://wallpapers.com/images/hd/bmw-m8-4k-6r9v8qbfbg42vv9l.jpg' width={2000} height={100} alt="project_image" className='project_image relative object-cover bg-center' />
         <div className="w-[50vw] bg-black bg-opacity-60 absolute h-full top-0 right-0 flex flex-col justify-center items-center px-20 text-white font-roboto">
           <h3 className="text-8xl opacity-100">Daniel Xu</h3>
-          <p className="text-xl mt-4">I have a background in computer science and am continuously learning and improving my skills in web development</p>
+          <p className="text-xl mt-4">I have a background in computer science and am continuously learnng and improving my skills in web development</p>
           </div>
         </div>
       </div>
