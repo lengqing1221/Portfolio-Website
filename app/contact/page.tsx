@@ -107,7 +107,7 @@ const ContactPage = () => {
       <div ref={contactRef} className='relative h-[70vh]'></div>
       <div className='max-h-[300vh] flex flex-col items-center justify-center '>
       <h1 className='text-black font-roboto font-extrabold mt-20 text-6xl mb-20 min-w-[300px]'>Get In Touch</h1>
-          <form action="submit" onSubmit={onSubmit} className='flex flex-col space-y-20 xl:px-[550px] lg:px-[80px] lg:flex-1 h-auto md:px-[100px] sm:px-[150px] min-w-[600px] mb-20 w-full justify-center items-start'>
+          <form action="submit" onSubmit={onSubmit} className='flex flex-col space-y-20 xl:px-[500px] lg:px-[80px] lg:flex-1 h-auto md:px-[100px] sm:px-[150px] min-w-[600px] mb-20 w-full justify-center items-start'>
             <input onChange={handleChange} type="text" placeholder='Your Name' className='mainColor focus:border-blue-600 focus:border-[.5px] border-[1px] text-3xl py-6 border-t-0 border-r-0 border-l-0 border-b-[1px] border-slate-600 w-full min-w-[300px]'/>
             <input onChange={handleChange} type="text" placeholder='Your Email' className='mainColor focus:border-blue-600 border-[1px] text-3xl py-6 border-t-0 border-r-0 border-l-0 border-b-[1px] border-slate-600 w-full min-w-[300px]'/>
             <input onChange={handleChange} type="text" placeholder='Message' className='mainColor focus:border-blue-600 border-[1px] text-3xl py-6 border-t-0 border-r-0 border-l-0 border-b-[1px] border-slate-600 w-full min-w-[300px]'/>

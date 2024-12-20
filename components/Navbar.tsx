@@ -18,17 +18,33 @@ const Navbar = () => {
                 </div>
                 <div className='right_nav'>
                     <ul className='flex'>
-                    <li className={`nav-link ${pathName === '/' ? 'before:mt-8 before:mr-[10px] block before:opacity-100 before:content-[""] before:h-[5px] before:w-full before:absolute before:bg-[#031D44] relative' : 'hover nav-link-fade-up'} text-gray-600`}>
+                        <li
+                            className={`nav-link ${pathName === '/'
+                                    ? 'before:mr-[10px] block before:opacity-100 before:content-[""] before:h-[5px] before:w-full before:absolute before:bg-[#031D44] before:bottom-2 relative'
+                                    : 'hover nav-link-fade-up'
+                                } text-gray-600`}
+                        >
+
                             <Link href="/" className='md:text-lg text-base'>
                                 Home
                             </Link>
                         </li>
-                        <li className={`nav-link ${pathName === '/about' ? 'before:mt-8 before:mr-[10px] block before:opacity-100 before:content-[""] before:h-[5px] before:w-full before:absolute before:bg-[#031D44] relative' : 'hover nav-link-fade-up'} text-gray-600`}>
+                        <li
+                            className={`nav-link ${pathName === '/about'
+                                    ? 'before:mr-[10px] block before:opacity-100 before:content-[""] before:h-[5px] before:w-full before:absolute before:bg-[#031D44] before:bottom-2 relative'
+                                    : 'hover nav-link-fade-up'
+                                } text-gray-600`}
+                        >
                             <Link href="/about" className='md:text-lg text-base'>
                                 About
                             </Link>
                         </li>
-                        <li className={`nav-link ${pathName === '/contact' ? 'before:mt-8 before:mr-[10px] block before:opacity-100 before:content-[""] before:h-[5px] before:w-full before:absolute before:bg-[#031D44] relative' : 'hover nav-link-fade-up'} text-gray-600`}>
+                        <li
+                            className={`nav-link ${pathName === '/contact'
+                                    ? 'before:mr-[10px] block before:opacity-100 before:content-[""] before:h-[5px] before:w-full before:absolute before:bg-[#031D44] before:bottom-2 relative'
+                                    : 'hover nav-link-fade-up'
+                                } text-gray-600`}
+                        >
                             <Link href="/contact" className='md:text-lg text-base'>
                                 Contact
                             </Link>
