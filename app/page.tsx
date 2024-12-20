@@ -58,7 +58,6 @@ const HomePage = () => {
         transformStyle: "preserve-3d", // Sets the 3D rendering context
         duration: 1,
         backgroundColor: 'rgb(22, 22, 22)',
-        ease: 'none',
         display: 'hidden',
       })
 
