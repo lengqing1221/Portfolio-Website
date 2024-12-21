@@ -33,7 +33,7 @@ export const ProductData = {
             information: "Description of project 1",
             image: product_five,
             number: '04',
-            projectUrl: 'https://github.com/lengqing1221/ecommerce_website_sanity',
+            projectUrl: 'ecommerce-youtube-build-plum.vercel.app',
         },
         {
             title: "Gaming Website",
@@ -47,7 +47,7 @@ export const ProductData = {
             information: "Description of project 1",
             image: product_six,
             number: '06',
-            projectUrl: 'https://github.com/lengqing1221/Mern-Ecommerce-Website',
+            projectUrl: 'ecommerce-website-ivory-xi.vercel.app',
         },
     ]
 }
